@@ -75,19 +75,15 @@ This structure allows AI systems to perform multi-hop reasoning and trace deep r
 * **Official Documentation:**
   * CrewAI Docs: https://docs.crewai.com
   * Microsoft GraphRAG: https://microsoft.github.io/graphrag/
-* **Video Tutorials & Guides:**
-  * CrewAI Deep Dive & Flows Tutorial: [Insert Link Here]
-  * GraphRAG & Neo4j Integration Walkthrough: [Insert Link Here]
 
 ---
 
-## Setup & Local Testing
+## Setup & Dependencies
 
-To run sample implementations:
+To run sample implementations, ensure the following core libraries are installed:
 
 ```bash
-# Clone repository
-git clone [https://github.com/YOUR_USERNAME/CrewAI-and-GraphRAG-Learning.git](https://github.com/YOUR_USERNAME/CrewAI-and-GraphRAG-Learning.git)
+pip install crewai neo4j pydantic
 
 # Install dependencies
 pip install crewai neo4j pydantic
